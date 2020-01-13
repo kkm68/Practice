@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Конфигуратор коктейля</title>
+  </head>
+  <body>
+    <div class="main">
+    <div class="top">
+      <h1>Выбор коктейля</h1>
+    </div>
+    <div class="block">
+    <form name='mix1'>
+      <input id="vodka" type=radio name="ingr1" value="vodka">
+      <label for="vodka">vodka</label><br>
+      <input id="gin" type=radio name="ingr1" value="gin">
+      <label for="gin">gin</label><br>
+      <input id="rum" type=radio name="ingr1" value="rum">
+      <label for="rum">rum</label><br>  
+    </form>
+    </div>
+    <div class="block">
+    <form name='mix2'>
+      <input id="juice" type=radio name="ingr2" value="juice">
+      <label for="juice">juice</label><br>
+      <input id="soda" type=radio name="ingr2" value="soda">
+      <label for="soda">soda</label><br>
+      <input id="cola" type=radio name="ingr2" value="cola">
+      <label for="cola">cola</label><br>
+    </form>
+    </div>
+    <div class="block">
+    <form name='mix3'>
+      <input id="ice" type=radio name="ingr3" value="ice">
+      <label for="ice">ice</label><br>
+      <input id="mint" type=radio name="ingr3" value="mint">
+      <label for="mint">mint</label><br>
+      <input id="lemon" type=radio name="ingr3" value="lemon">
+      <label for="lemon">lemon</label><br>
+    </form>
+    </div>
+    <button onclick="mixResult()">Что получилось</button>
+    </div>
+    <script src="mix.js"></script>
+  </body>
+</html>

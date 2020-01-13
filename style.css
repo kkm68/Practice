@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 75%;
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 150px;
+    
+}
+
+.top {
+    border: 4px darkblue solid;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+
+.block {
+    font-size: 18px;
+    border: 4px brown solid;
+    border-radius: 10px;
+}
+
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.btn {
+    justify-content: center;
+}
